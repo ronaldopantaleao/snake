@@ -100,4 +100,62 @@ canvas {
     border-radius: 5px; 
 }
 
+@media (max-width: 800px) {
+
+    .score {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+    }
+
+    .menu-screen {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 1;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+        margin-top:50px;
+    }
+    
+    .container > div {
+        display: flex;
+        gap: 110px;
+    }
+    
+    .right, .down{
+        cursor: pointer;
+        padding: 45px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffffff00;
+        color: #fff;
+        border: 1px solid #333;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .left , .up {
+        cursor: pointer;
+        padding: 45px;
+        border: none;
+        border-radius: 5px; 
+        background-color: #ffffff00;
+        color: #fff;
+        border: 1px solid #333;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
 
